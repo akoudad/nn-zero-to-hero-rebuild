@@ -1,6 +1,6 @@
 # nn-zero-to-hero-rebuild
 
-im implementing core deep learning systems frorm scratch,starting with autograd and working up to a GPT-2 reproduction.
+im implementing core deep learning systems from scratch,starting with autograd and working up to a GPT-2 reproduction.
 
 ## what we building ? 
 
@@ -13,9 +13,8 @@ im implementing core deep learning systems frorm scratch,starting with autograd 
 - [ ] **GPT-2 reproduction**
 
 ## Structure
-
-\`\`\`
+```
 notebooks/    Value class — manual backprop by hand first, then automated
               via backward(), topo sort, tanh activation, graph, gradient checks
 engine.py     same Value class, extracted into a clean standalone module
-\`\`\`
+```
