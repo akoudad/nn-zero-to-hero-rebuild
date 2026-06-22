@@ -1,6 +1,6 @@
 # nn-zero-to-hero-rebuild
 
-im implementing core deep learning systems form scratch,starting with autograd and working ip to a GPT-2 reproduction.
+im implementing core deep learning systems frorm scratch,starting with autograd and working up to a GPT-2 reproduction.
 
 ## what we building ? 
 
