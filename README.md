@@ -12,9 +12,10 @@ im implementing core deep learning systems form scratch,starting with autograd a
 - [ ] **tokenizer**
 - [ ] **GPT-2 reproduction**
 
-## Structure 
-\`\`\`
-notebooks/ implementation per stage (Value class , manual backprop by hand first , then automated via backward(), topo sort , tanh activation ,graph , gradient checks)
-engine.py same value class , extracted into a clean standalone module
-\`\`\`
+## Structure
 
+\`\`\`
+notebooks/    Value class — manual backprop by hand first, then automated
+              via backward(), topo sort, tanh activation, graph, gradient checks
+engine.py     same Value class, extracted into a clean standalone module
+\`\`\`
