@@ -3,7 +3,7 @@ class Value :
     # Store scalar values and compute gradients automatically.
     # It doesn’t know what a neuron or neural network is.
 
-    def __init__ ( self, data, _ children=(), _op=''):
+    def __init__ ( self, data, _children=(), _op=''):
         self.data = data
         self.grad = 0 
         #internal variables used for autograd graph construction
@@ -116,5 +116,5 @@ class Value :
         return other * self**-1 
 
 
-     def __repr__(self):
+    def __repr__(self):
         return f"Value(data={self.data}, grad={self.grad})"
